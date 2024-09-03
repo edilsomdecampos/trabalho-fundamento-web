@@ -1,0 +1,48 @@
+/* Estilizar a navbar */
+nav {
+    background-color: #333; /* Cor de fundo da navbar */
+    padding: 2em; /* Espaçamento interno da navbar */
+    text-align: center; /* Alinhar os itens da navbar ao centro */
+}
+
+nav ul {
+    list-style: none; /* Remover a lista numerada */
+    margin: 0; /* Remover o espaçamento da lista */
+    padding: 0; /* Remover o espaçamento da lista */
+    display: flex; /* Transformar a lista em uma linha */
+    justify-content: space-between; /* Distribuir os itens igualmente */
+}
+
+nav li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remover a decoração dos links */
+    transition: color 0.2s ease; /* Efeito de transição ao passar o mouse */
+}
+
+nav a:hover {
+    color: #ccc; /* Cor do texto dos links ao passar o mouse */
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+.container{
+       text-align: center;
+}
+p{
+    text-align: center;
+    color: brown;
+}
+a{
+    text-decoration: none;
+}
+
+
